@@ -5,7 +5,9 @@ description = "Default template for PDM package"
 authors = [
     {name = "Paul Bailey", email = "paul@neutron.studio"},
 ]
-dependencies = []
+dependencies = [
+    "pytest>=8.1.1",
+]
 requires-python = "==3.10.*"
 readme = "README.md"
 license = {text = "MIT"}
